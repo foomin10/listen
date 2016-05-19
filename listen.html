@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="ja" http-equiv="Content-Language" />
+    <meta content="initial-scale=1.0" name="viewport" />
+    <title>Listen</title>
+    <link href="./css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="container">
+      <h3>
+        Listen
+      </h3>
+      <form name="form1" onsubmit="main(document.form1[0]); return false;">
+        <label>URL: <input id="input" placeholder="http://..." size="50" type="text" /></label> <button id="submit_button" type="submit">Go</button>
+        <div id="output"></div>
+      </form>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

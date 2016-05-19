@@ -1,0 +1,20 @@
+doctype html
+html lang="ja" dir="ltr"
+  head
+    meta charset="UTF-8"
+    meta http-equiv="Content-Language" content="ja"
+    meta name="viewport" content="initial-scale=1.0"
+    title Listen
+    link rel="stylesheet" href="./css/main.css"
+  body
+    div#container
+      h3 Listen
+      form name="form1" onsubmit="main(document.form1[0]); return false;"
+        label
+          | URL: 
+          input#input type="text" size="50" placeholder="http://..."
+        button#submit_button< type="submit"
+          | Go
+        div#output
+    script src="./js/app.js"
+    //
