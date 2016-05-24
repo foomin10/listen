@@ -18,15 +18,20 @@ ul#list li {
   padding: 0.2em;
 }
 
+audio {
+  padding: 3px;
+}
+
 .url {
   padding: 3px;
 }
 
 .del {
   text-decoration: line-through;
+  opacity: 0.5;
 }
 
 .del:hover {
   text-decoration: none;
+  opacity: 1;
 }
-
